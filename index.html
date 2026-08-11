@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Loja Online</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a href="index.html" class="logo">Minha Loja</a>
+      <nav class="nav-carrinho">
+        <a href="carrinho.html" class="link-carrinho">
+          🛒 Carrinho
+          <span class="contador-carrinho" data-contador-carrinho>0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Bem-vindo(a) à nossa loja!</h1>
+      <p>Produtos com entrega rápida, pagamento via Pix ou cartão de crédito.</p>
+    </section>
+
+    <section>
+      <h2 class="titulo-secao">Nossos produtos</h2>
+      <div id="grade-produtos" class="grade-produtos">
+        <!-- produtos inseridos via JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; <span id="ano"></span> Minha Loja. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/produtos.js"></script>
+  <script src="js/carrinho.js"></script>
+  <script src="js/catalogo.js"></script>
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
