@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+<rect width="400" height="400" fill="#f7e8e3"/>
+<g fill="none" stroke="#2a3d45" stroke-width="6">
+  <path d="M100 200 Q95 160 135 155 Q175 152 185 178 Q190 200 165 210 Q130 222 105 212 Q98 208 100 200 Z" fill="#e0703c" fill-opacity="0.3"/>
+  <path d="M300 200 Q305 160 265 155 Q225 152 215 178 Q210 200 235 210 Q270 222 295 212 Q302 208 300 200 Z" fill="#e0703c" fill-opacity="0.3"/>
+  <path d="M185 178 Q200 172 215 178"/>
+  <path d="M100 200 L62 178" stroke-linecap="round"/>
+  <path d="M300 200 L338 178" stroke-linecap="round"/>
+</g>
+<text x="200" y="300" font-family="Arial" font-size="24" fill="#6b6560" text-anchor="middle">Gatinho</text>
+</svg>

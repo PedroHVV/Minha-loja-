@@ -1,47 +1,48 @@
 /**
  * LISTA DE PRODUTOS
  * ------------------
- * Edite este arquivo para colocar os seus produtos de verdade.
+ * Edite este arquivo para colocar os seus óculos de verdade (os que vier
+ * escolher no fornecedor de dropshipping).
  * Cada produto precisa de:
  *   id        -> um código único (não repita entre produtos)
  *   nome      -> nome do produto
- *   preco     -> preço em reais, usando ponto para centavos (ex: 49.90)
+ *   preco     -> preço em reais, usando ponto para centavos (ex: 89.90)
  *   imagem    -> caminho da imagem (coloque os arquivos na pasta /img)
  *   descricao -> texto curto explicando o produto
- *   estoque   -> quantidade disponível (opcional, deixe 999 se não quiser controlar)
+ *   estoque   -> quantidade disponível (opcional, deixe 999 se não for controlar)
  */
 
 const PRODUTOS = [
   {
     id: "prod-001",
-    nome: "Caneca Personalizada",
-    preco: 39.90,
-    imagem: "img/produto-exemplo-1.svg",
-    descricao: "Caneca de porcelana 300ml, ideal para presentear.",
-    estoque: 25
+    nome: "Óculos Aviador Clássico",
+    preco: 89.90,
+    imagem: "img/oculos-aviador.svg",
+    descricao: "Lentes espelhadas e armação leve, com proteção UV400.",
+    estoque: 30
   },
   {
     id: "prod-002",
-    nome: "Camiseta Estampada",
-    preco: 69.90,
-    imagem: "img/produto-exemplo-2.svg",
-    descricao: "100% algodão, disponível em vários tamanhos.",
-    estoque: 40
+    nome: "Óculos Redondo Retrô",
+    preco: 79.90,
+    imagem: "img/oculos-redondo.svg",
+    descricao: "Visual vintage, ideal pra quem gosta de um estilo diferente.",
+    estoque: 30
   },
   {
     id: "prod-003",
-    nome: "Ecobag de Lona",
-    preco: 29.90,
-    imagem: "img/produto-exemplo-3.svg",
-    descricao: "Bolsa reforçada, ótima para compras do dia a dia.",
-    estoque: 60
+    nome: "Óculos Esportivo Polarizado",
+    preco: 99.90,
+    imagem: "img/oculos-esportivo.svg",
+    descricao: "Armação envolvente, ótimo pra praia, corrida e dia a dia.",
+    estoque: 30
   },
   {
     id: "prod-004",
-    nome: "Chaveiro Artesanal",
-    preco: 14.90,
-    imagem: "img/produto-exemplo-4.svg",
-    descricao: "Feito à mão, peça única.",
-    estoque: 100
+    nome: "Óculos Gatinho Fashion",
+    preco: 84.90,
+    imagem: "img/oculos-gatinho.svg",
+    descricao: "Formato gatinho estiloso, com acabamento premium.",
+    estoque: 30
   }
 ];

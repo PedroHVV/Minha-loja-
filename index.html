@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Loja Online</title>
+  <title>Solar Óculos</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <div class="barra-promo">🕶️ Óculos com proteção UV400 garantida</div>
+
   <header class="cabecalho">
     <div class="container cabecalho-conteudo">
-      <a href="index.html" class="logo">Minha Loja</a>
+      <a href="index.html" class="logo">Solar<span>Óculos</span></a>
       <nav class="nav-carrinho">
         <a href="carrinho.html" class="link-carrinho">
           🛒 Carrinho
@@ -20,13 +22,39 @@
   </header>
 
   <main class="container">
-    <section class="hero">
-      <h1>Bem-vindo(a) à nossa loja!</h1>
-      <p>Produtos com entrega rápida, pagamento via Pix ou cartão de crédito.</p>
+    <section class="hero-banner">
+      <div class="hero-icone">🕶️</div>
+      <h1>Estilo que também cuida dos seus olhos</h1>
+      <p>Óculos de sol com proteção UV400, pagamento via Pix ou cartão e entrega para todo o Brasil.</p>
+      <a href="#grade-produtos" class="botao-hero">Ver coleção</a>
+    </section>
+
+    <section class="faixa-confianca">
+      <div class="item-confianca">
+        <span class="icone">🔒</span>
+        <div>
+          <strong>Pagamento seguro</strong>
+          <span>Processado pelo Mercado Pago</span>
+        </div>
+      </div>
+      <div class="item-confianca">
+        <span class="icone">💳</span>
+        <div>
+          <strong>Pix ou cartão</strong>
+          <span>Escolha a forma que preferir</span>
+        </div>
+      </div>
+      <div class="item-confianca">
+        <span class="icone">🚚</span>
+        <div>
+          <strong>Envio para todo o Brasil</strong>
+          <span>Acompanhe seu pedido</span>
+        </div>
+      </div>
     </section>
 
     <section>
-      <h2 class="titulo-secao">Nossos produtos</h2>
+      <h2 class="titulo-secao">Nossos óculos</h2>
       <div id="grade-produtos" class="grade-produtos">
         <!-- produtos inseridos via JavaScript -->
       </div>
@@ -35,7 +63,7 @@
 
   <footer class="rodape">
     <div class="container">
-      <p>&copy; <span id="ano"></span> Minha Loja. Todos os direitos reservados.</p>
+      <p>&copy; <span id="ano"></span> Solar Óculos. Todos os direitos reservados.</p>
     </div>
   </footer>
 
