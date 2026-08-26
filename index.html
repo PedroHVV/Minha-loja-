@@ -22,11 +22,25 @@
   </header>
 
   <main class="container">
-    <section class="hero-banner">
-      <div class="hero-icone">🕶️</div>
-      <h1>Estilo que também cuida dos seus olhos</h1>
-      <p>Óculos de sol com proteção UV400, pagamento via Pix ou cartão e entrega para todo o Brasil.</p>
-      <a href="#grade-produtos" class="botao-hero">Ver coleção</a>
+    <section class="hero-carrossel">
+      <div class="slide ativo" style="background-image: url('https://images.unsplash.com/photo-1688760116331-ad730698e84d?w=1600&q=75&auto=format&fit=crop');">
+        <div class="slide-conteudo">
+          <h1>Estilo que também cuida dos seus olhos</h1>
+          <p>Óculos de sol com proteção UV400, pagamento via Pix ou cartão e entrega para todo o Brasil.</p>
+          <a href="#grade-produtos" class="botao-hero">Ver coleção</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1610313766872-2a62970e747a?w=1600&q=75&auto=format&fit=crop');">
+        <div class="slide-conteudo">
+          <h1>Óculos pra todos os estilos</h1>
+          <p>Do clássico ao moderno, encontre o óculos perfeito pra você.</p>
+          <a href="#grade-produtos" class="botao-hero">Ver coleção</a>
+        </div>
+      </div>
+      <div class="pontos-carrossel">
+        <button class="ponto ativo" aria-label="Ir para o slide 1"></button>
+        <button class="ponto" aria-label="Ir para o slide 2"></button>
+      </div>
     </section>
 
     <section class="faixa-confianca">
@@ -70,6 +84,7 @@
   <script src="js/produtos.js"></script>
   <script src="js/carrinho.js"></script>
   <script src="js/catalogo.js"></script>
+  <script src="js/carrossel.js"></script>
   <script>
     document.getElementById("ano").textContent = new Date().getFullYear();
   </script>
